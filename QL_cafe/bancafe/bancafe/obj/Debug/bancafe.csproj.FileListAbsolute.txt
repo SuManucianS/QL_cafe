@@ -1,0 +1,101 @@
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.dangki.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.dangnhap.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.danhmuc.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.doanhthu.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.douong.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.nhanvien.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.order.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.thanhtoan.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.trangchu.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.csproj.GenerateResource.Cache
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\bin\Debug\bancafe.exe.config
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\bin\Debug\bancafe.exe
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\bin\Debug\bancafe.pdb
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.Properties.Resources.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.exe
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.pdb
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.csprojResolveAssemblyReference.cache
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.doimatkhau.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.inhoadon.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\bin\Debug\bancafe.exe.config
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.exe
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.pdb
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\bin\Debug\bancafe.exe
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\bin\Debug\bancafe.pdb
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.csprojResolveAssemblyReference.cache
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.dangki.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.dangnhap.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.danhmuc.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.doanhthu.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.douong.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.inhoadon.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.nhanvien.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.order.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.doimatkhau.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.thanhtoan.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.trangchu.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.Properties.Resources.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.csproj.GenerateResource.Cache
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\bin\Debug\bancafe.exe.config
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.exe
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.pdb
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\bin\Debug\bancafe.exe
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\bin\Debug\bancafe.pdb
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.Properties.Resources.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.csproj.GenerateResource.Cache
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.fdangki.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.fdangnhap.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.fdanhmuc.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.fdoanhthu.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.fdouong.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.finhoadon.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.fnhanvien.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.forder.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.fdoimatkhau.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.fthanhtoan.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.fdangnhapQL.resources
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.csprojResolveAssemblyReference.cache
+E:\SLIDE BAO CAO\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.ftrangchu.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\bin\Debug\bancafe.exe.config
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.exe
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.pdb
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\bin\Debug\bancafe.exe
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\bin\Debug\bancafe.pdb
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.csprojResolveAssemblyReference.cache
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.fdangki.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.fdangnhap.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.fdanhmuc.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.fdouong.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.finhoadon.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.forder.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.fdoimatkhau.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.fthanhtoan.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.ftrangchu.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.fdangnhapQL.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.fdoanhthu.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.fnhanvien.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.Properties.Resources.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.csproj.GenerateResource.Cache
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.ftrangchuQL.resources
+D:\TAI LIEU HOC TAP\PHAN TICH THIET KE HE THONG THONG TIN\SLIDE BAO CAO\SLIDE BAO CAO\bancafe\bancafe\obj\Debug\bancafe.ftrangchuQLHome.resources
+D:\C#\QL_cafe\bancafe\bancafe\obj\Debug\bancafe.csprojAssemblyReference.cache
+D:\C#\QL_cafe\bancafe\bancafe\obj\Debug\bancafe.ftrangchuQL.resources
+D:\C#\QL_cafe\bancafe\bancafe\obj\Debug\bancafe.ftrangchuQLHome.resources
+D:\C#\QL_cafe\bancafe\bancafe\obj\Debug\bancafe.fdangki.resources
+D:\C#\QL_cafe\bancafe\bancafe\obj\Debug\bancafe.fdangnhap.resources
+D:\C#\QL_cafe\bancafe\bancafe\obj\Debug\bancafe.fdanhmuc.resources
+D:\C#\QL_cafe\bancafe\bancafe\obj\Debug\bancafe.fdouong.resources
+D:\C#\QL_cafe\bancafe\bancafe\obj\Debug\bancafe.forder.resources
+D:\C#\QL_cafe\bancafe\bancafe\obj\Debug\bancafe.fdoimatkhau.resources
+D:\C#\QL_cafe\bancafe\bancafe\obj\Debug\bancafe.fthanhtoan.resources
+D:\C#\QL_cafe\bancafe\bancafe\obj\Debug\bancafe.ftrangchu.resources
+D:\C#\QL_cafe\bancafe\bancafe\obj\Debug\bancafe.fdoanhthu.resources
+D:\C#\QL_cafe\bancafe\bancafe\obj\Debug\bancafe.fnhanvien.resources
+D:\C#\QL_cafe\bancafe\bancafe\obj\Debug\bancafe.Properties.Resources.resources
+D:\C#\QL_cafe\bancafe\bancafe\obj\Debug\bancafe.csproj.GenerateResource.cache
+D:\C#\QL_cafe\bancafe\bancafe\obj\Debug\bancafe.csproj.CoreCompileInputs.cache
+D:\C#\QL_cafe\bancafe\bancafe\obj\Debug\bancafe.exe
+D:\C#\QL_cafe\bancafe\bancafe\obj\Debug\bancafe.pdb
+D:\C#\QL_cafe\bancafe\bancafe\bin\Debug\bancafe.exe.config
+D:\C#\QL_cafe\bancafe\bancafe\bin\Debug\bancafe.exe
+D:\C#\QL_cafe\bancafe\bancafe\bin\Debug\bancafe.pdb

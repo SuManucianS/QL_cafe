@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{620DD948-3CFA-4886-B1D2-87064DE6E123}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>bancafe</RootNamespace>
+    <AssemblyName>bancafe</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\AccountManagerBLL\AccountManagerBLL.cs" />
+    <Compile Include="DAL\Manager\Account_ManagerDAO\AccountManager.cs" />
+    <Compile Include="DAL\LoginDAO\LoginDAO.cs" />
+    <Compile Include="DAL\Manager\Staff_MângerDAO\staff_managerDAO.cs" />
+    <Compile Include="DTO\AccountDTO\LoginAccountDTO.cs" />
+    <Compile Include="DTO\ManagerDTO\staff_managerDTO.cs" />
+    <Compile Include="Extension\DataProvider\DataProvider.cs" />
+    <Compile Include="Extension\HashSHA256\HashSHA256.cs" />
+    <Compile Include="GUI\ftrangchuQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ftrangchuQL.Designer.cs">
+      <DependentUpon>ftrangchuQL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\quanly\ftrangchuQLHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\quanly\ftrangchuQLHome.Designer.cs">
+      <DependentUpon>ftrangchuQLHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\dangnhap\fdangki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\dangnhap\fdangki.Designer.cs">
+      <DependentUpon>fdangki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\douong\fdanhmuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\douong\fdanhmuc.Designer.cs">
+      <DependentUpon>fdanhmuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\douong\fdouong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\douong\fdouong.Designer.cs">
+      <DependentUpon>fdouong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\nhanvien\forder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\nhanvien\forder.Designer.cs">
+      <DependentUpon>forder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\dangnhap\fdangnhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\dangnhap\fdangnhap.Designer.cs">
+      <DependentUpon>fdangnhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\quanly\fdoanhthu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\quanly\fdoanhthu.Designer.cs">
+      <DependentUpon>fdoanhthu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\quanly\fnhanvien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\quanly\fnhanvien.Designer.cs">
+      <DependentUpon>fnhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\dangnhap\fdoimatkhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\dangnhap\fdoimatkhau.Designer.cs">
+      <DependentUpon>fdoimatkhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\nhanvien\fthanhtoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\nhanvien\fthanhtoan.Designer.cs">
+      <DependentUpon>fthanhtoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ftrangchu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ftrangchu.Designer.cs">
+      <DependentUpon>ftrangchu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\ftrangchuQL.resx">
+      <DependentUpon>ftrangchuQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\quanly\ftrangchuQLHome.resx">
+      <DependentUpon>ftrangchuQLHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\dangnhap\fdangki.resx">
+      <DependentUpon>fdangki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\douong\fdanhmuc.resx">
+      <DependentUpon>fdanhmuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\douong\fdouong.resx">
+      <DependentUpon>fdouong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\nhanvien\forder.resx">
+      <DependentUpon>forder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\dangnhap\fdoimatkhau.resx">
+      <DependentUpon>fdoimatkhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\nhanvien\fthanhtoan.resx">
+      <DependentUpon>fthanhtoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ftrangchu.resx">
+      <DependentUpon>ftrangchu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\dangnhap\fdangnhap.resx">
+      <DependentUpon>fdangnhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\quanly\fdoanhthu.resx">
+      <DependentUpon>fdoanhthu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\quanly\fnhanvien.resx">
+      <DependentUpon>fnhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon2-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\douong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hethong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\order.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\order1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quanly.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\huongdan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonlogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btlogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-3-1568195691910441161293-crop-1568195783356616846651.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgjpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_CjE5PonALeZhn89SuIwKog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\douong1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thongke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thanhtoan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thanhtoan1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thanhtoan2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nhanvien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thongkedoanhso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nhaphang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editpassword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\douong2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgjpg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btlogin1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picturebox.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picturebox1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-to-school-banner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-to-school-banner1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner-HOC-03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editpassword1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loupe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-511.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner-11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\writer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\writer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\dangnhapQL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout copy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speed1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\douong3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner-HOC-031.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loupe1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thongke1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reload1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit %281%292.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
